@@ -1,0 +1,83 @@
+{
+    "description": {
+        "message": "Real-Debrid est un débrideur de qualité qui vous permettra de télécharger instantanément et rapidement vos fichiers sur Internet."
+    },
+	"stream_now": {
+        "message": "Regarder en streaming maintenant"
+    },
+	"not_streamable": {
+        "message": "Ce lien n'est pas regardable bien que supporté"
+    },
+	"logout": {
+        "message": "Se déconnecter"
+    },
+	"authorize": {
+        "message": "Autoriser mon compte"
+    },
+	"waiting_authorize": {
+        "message": "En attente d'autorisation"
+    },
+	"not_supported_link": {
+        "message": "Ce lien n'est pas supporté"
+    },
+	"no_link_found": {
+        "message": "Aucun lien supporté n'a été trouvé"
+    },
+	"cancel": {
+        "message": "Annuler"
+    },
+    "day": {
+        "message": "Jour"
+    },
+	"days": {
+        "message": "Jours"
+    },
+    "debrid": {
+        "message": "Générer tous les liens cochés"
+    },
+	"debrid_now": {
+        "message": "Débrider et télécharger ce lien"
+    },
+    "debrid_one": {
+        "message": "Ajouter les liens de la sélection"
+    },
+    "auto_debrid": {
+        "message": "Recherche automatique de liens"
+    },
+    "check": {
+        "message": "Cocher/Décocher tous les liens"
+    },
+    "clipboard": {
+        "message": "Copier les liens dans le presse papier"
+    },
+    "settings": {
+        "message": "Paramètres"
+    },
+    "back": {
+        "message": "Retour"
+    },
+    "download": {
+        "message": "Télécharger"
+    },
+    "view": {
+        "message": "Visioner vidéo"
+    },
+    "offline": {
+        "message": "Vous n'êtes pas connecté"
+    },
+	"username": {
+        "message": "Nom d'utilisateur"
+    },
+	"email": {
+        "message": "Adresse email"
+    },
+	"type": {
+        "message": "Type de compte"
+    },
+	"expiration": {
+        "message": "Expiration"
+    },
+	"points": {
+        "message": "Points fidélité"
+    }
+}

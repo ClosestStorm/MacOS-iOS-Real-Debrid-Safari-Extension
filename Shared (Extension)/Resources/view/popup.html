@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Plugin RD</title>
+        <link rel="stylesheet" href="../css/foundation.min.css"/>
+        <link rel="stylesheet" href="../css/foundation-icons/foundation-icons.css"/>
+        <link rel="stylesheet" href="../css/style.css"/>
+    </head>
+    <body>
+        <div class="menu top">
+            <div class="logo">
+                <img height="100" width="100" alt="logo Real-Debrid" src="../img/logo.png"/>
+            </div>
+            <div class="login">
+                <div id="overview" class="login-contain">
+                    <a id="connection" target="_blank" href="https://real-debrid.com/" class="hide"></a>
+                    <p id="username"></p>
+                    <p id="premium-ctn">Premium: <span id="premium"></span></p>
+                </div>
+            </div>
+        </div>
+        <div id="contain" class="contain"><center><br/><br/><img src="../img/loading.gif" alt="Busy"/></center></div>
+        <div class="menu bottom">
+            <div class="control">
+                <a id="popup-auto" href="#"><i class="fi-loop"></i></a>
+            </div>
+            <div class="control">
+                <a id="popup-debrid" href="#"><i class="fi-archive"></i></a>
+            </div>
+            <div class="control">
+                <a id="popup-check" href="#"><i class="fi-checkbox"></i></a>
+            </div>
+            <div class="control">
+                <a id="popup-clipboard" href="#"><i class="fi-clipboard-notes"></i></a>
+            </div>
+            <div class="control">
+                <a id="popup-settings" href="#"><i class="fi-widget"></i></a>
+            </div>
+        </div>
+        <textarea id="clipboard_text" class="hide"></textarea>
+        <script src="../js/popup.js"></script>
+    </body>
+</html>

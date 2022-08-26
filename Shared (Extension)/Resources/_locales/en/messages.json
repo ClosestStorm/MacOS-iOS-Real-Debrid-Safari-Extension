@@ -1,0 +1,83 @@
+{
+    "description": {
+        "message": "Real-Debrid is an unrestricted downloader that allows you to download files instantly and at the best of your Internet speed."
+    },
+	"stream_now": {
+        "message": "Watch in streaming now"
+    },
+	"not_streamable": {
+        "message": "This link is not watchable but supported"
+    },
+	"logout": {
+        "message": "Logout"
+    },
+	"authorize": {
+        "message": "Authorize my account"
+    },
+	"waiting_authorize": {
+        "message": "Waiting for authorization"
+    },
+	"not_supported_link": {
+        "message": "Ce lien n'est pas supporté"
+    },
+	"no_link_found": {
+        "message": "No supported link has been found"
+    },
+	"cancel": {
+        "message": "Cancel"
+    },
+    "day": {
+        "message": "Day"
+    },
+	"days": {
+        "message": "Days"
+    },
+    "debrid": {
+        "message": "Unrestrict selected links"
+    },
+    "debrid_now": {
+        "message": "Unrestrict and download this link"
+    },
+	"debrid_one": {
+        "message": "Add links from the selection"
+    },
+    "auto_debrid": {
+        "message": "Automatic discovery of links"
+    },
+    "check": {
+        "message": "Check / Uncheck all links"
+    },
+    "clipboard": {
+        "message": "Copy links in the clipboard"
+    },
+    "settings": {
+        "message": "Settings"
+    },
+    "back": {
+        "message": "Back"
+    },
+    "download": {
+        "message": "Download"
+    },
+    "view": {
+        "message": "View"
+    },
+    "offline": {
+        "message": "You are not connected"
+    },
+	"username": {
+        "message": "Username"
+    },
+	"email": {
+        "message": "Email"
+    },
+	"type": {
+        "message": "Account type"
+    },
+	"expiration": {
+        "message": "Expiration"
+    },
+	"points": {
+        "message": "Fidelity points"
+    }
+}

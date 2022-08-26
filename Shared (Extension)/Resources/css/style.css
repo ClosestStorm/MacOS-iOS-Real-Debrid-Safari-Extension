@@ -1,0 +1,192 @@
+html, body {
+  height: auto;
+  width: auto;
+  font-family: "Lato", Calibri, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  outline: none;
+}
+
+.icon {
+	vertical-align: middle;
+}
+
+.hide {
+  display: none !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-size: 9.5px;
+}
+
+.menu {
+  height: 55px;
+  width: 460px;
+  background-color: #eaf3eb;
+}
+.menu.top .logo {
+  float: left;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+.menu.top .logo img {
+  margin: 11.5px 0 11.5px 0;
+}
+.menu.top .login {
+  display: table;
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+.menu.top .login .login-contain {
+  display: table-cell;
+  vertical-align: middle;
+}
+.menu.top .login a, .menu.top .login p {
+  overflow: hidden;
+  width: 165px;
+  line-height: 15px;
+  margin: 0;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #777777;
+}
+.menu.top .login a:hover {
+  color: #61AD6F;
+}
+.menu.bottom .control {
+  display: table;
+  float: left;
+  height: 100%;
+  width: 65px;
+  margin: 0 2px 0 2px;
+}
+.menu.bottom .control a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 25px;
+  color: #9fd1ec;
+}
+.menu.bottom .control a:hover {
+  color: #FFF;
+}
+.menu.bottom .control a.active {
+  color: #61AD6F;
+}
+.menu.bottom .control.settings {
+  width: 100%;
+}
+
+.contain {
+  overflow: auto;
+  height: 300px !important;
+  width: 100%;
+  border-left: 1px solid #777777;
+  border-right: 1px solid #777777;
+}
+.contain .link {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid #777777;
+}
+.contain .link .check {
+  display: table;
+  float: left;
+  height: 50px;
+  width: 60px;
+  padding: 15px 0 0 0;
+  text-align: center;
+}
+.contain .link .check label {
+  background-color: #777777 !important;
+}
+.contain .link .check input:checked + label {
+  background-color: #61AD6F !important;
+}
+.contain .link .info {
+  float: left;
+  overflow: hidden;
+  height: 50px;
+  width: 266px;
+  line-height: 1px;
+  padding-top: 4px;
+}
+.contain .link .info a, .contain .link .info p, .contain .link .info .icon {
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.contain .link .info p {
+  font-size: 13px;
+}
+.contain .link .info a {
+  font-size: 9.5px;
+}
+.contain .link .info.streamable {
+  width: 196px;
+}
+.contain .link .info.downloadable {
+  width: 231px;
+}
+.contain .link .stream, .contain .link .download {
+  display: table;
+  float: left;
+  height: 50px;
+  width: 35px;
+}
+.contain .link .stream a, .contain .link .download a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 25px;
+  color: #777777;
+}
+.contain .link .stream a:hover, .contain .link .download a:hover {
+  color: #61AD6F;
+}
+.contain .link .stream a {
+  padding-top: 4px;
+}
+.contain.settings {
+  background-color: #FFF;
+}
+.contain.settings .wrapper {
+  display: table;
+  height: 209px;
+  width: 300px;
+  margin: 0 0 0 25px;
+}
+.contain.settings .wrapper .info {
+  display: table-cell;
+  vertical-align: middle;
+}
+.contain.settings p, .contain.settings h5 {
+  margin: 0;
+}
+.contain.settings a {
+  color: #61AD6F;
+}
+.contain.settings a:hover {
+  color: #61AD6F;
+}
+.contain.offline {
+  display: table;
+}
+.contain.offline .offline-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
